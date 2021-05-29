@@ -1,7 +1,6 @@
 import React from "react";
 import { Row, Col } from 'antd';
 function Voicme() {
-
     return (
         <div className="work-frame">
             <Row gutter={[128, 0]}>
