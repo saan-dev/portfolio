@@ -11,7 +11,7 @@ function Flags() {
                     <p> 3d animation and artwork</p>
                     <h1>ABSTRACT</h1>
                     <p>The purpose of this project was to create artwork and animations for the track <a href="">Sansouni - Flags</a>. The coloring is done in After Effects, the simulation in Blender and the coverwork in Photoshop.  The animations will be part of an audiovisual liveset.
-                 <a className="read-more" href="https://sansouni.bandcamp.com/track/flags"> Show Artwork</a> </p>
+                        <a className="read-more" href="https://sansouni.bandcamp.com/track/flags"> Show Artwork</a> </p>
                     <h1>TOOLS</h1>
                     <p>Blender, Adobe After Effects, Photoshop</p>
                 </Col>

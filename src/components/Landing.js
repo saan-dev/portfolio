@@ -6,8 +6,6 @@ import FlagsImage from './Work/FlagsImage';
 import VoicmeImage from './Work/VoicmeImage';
 import { Canvas } from 'react-three-fiber'
 import React, { Suspense, useState } from "react";
-import { useEffect } from 'react';
-
 
 function Landing() {
 
@@ -37,7 +35,7 @@ function Landing() {
     function InfoBlockText() {
         if (musicProduction) {
             return (
-                <div className="info-block-text spacing"><p> I create <a className="info-link" href="https://sansouni.bandcamp.com/">music</a> and do some <a className="info-link" href="https://vimeo.com/519896017">soundesign</a>. Sometimes I also design<a className="info-link" href="flags"> covers and animations</a>. I've been producing music for over 10+ years</p></div>
+                <div className="info-block-text spacing"><p> I create <a className="info-link" href="https://sansouni.bandcamp.com/">music</a> and do some <a className="info-link" href="https://vimeo.com/519896017">soundesign</a>. Sometimes I also design<a className="info-link" href="flags"> covers and animations</a>.</p></div>
             );
         }
         if (frontend) {
@@ -65,8 +63,8 @@ function Landing() {
                     {' '}and <a href="#" onClick={handleDatascience}>applied datascientist {datascience ? <UpCircleOutlined /> : <DownCircleOutlined />}</a>.
 
                     <InfoBlockText />
-                     Check out what keeps me busy.
-              </Col>
+                    Check out what keeps me busy.
+                </Col>
 
                 <Col offset="2" span="20" lg={{ offset: 8, span: 8 }}>
 
